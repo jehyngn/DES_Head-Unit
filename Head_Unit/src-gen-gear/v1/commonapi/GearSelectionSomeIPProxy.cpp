@@ -32,7 +32,7 @@ std::shared_ptr<CommonAPI::SomeIP::Proxy> createGearSelectionSomeIPProxy(
 
 void initializeGearSelectionSomeIPProxy() {
     CommonAPI::SomeIP::AddressTranslator::get()->insert(
-        "local:commonapi.GearSelection:v1_0:commonapi.Attributes",
+        "local:commonapi.GearSelection:v1_0:commonapi.Gear",
         0x1237, 0x5678, 1, 0);
     CommonAPI::SomeIP::Factory::get()->registerProxyCreateMethod(
         "commonapi.GearSelection:v1_0",

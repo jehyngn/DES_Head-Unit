@@ -13,24 +13,21 @@ GearSelectionClient::GearSelectionClient() {
     runtime = CommonAPI::Runtime::get();
 
     std::string domain = "local";
-    std::string instance = "commonapi.Attributes";
-    std::string connection = "service-sample";
+    std::string instance = "commonapi.Gear";
+    std::string connection = "client-gear";
 
-    myProxy_ = runtime->buildProxy<GearSelectionProxy>(domain, instance, connection);
+    gearProxy_ = runtime->buildProxy<GearSelectionProxy>(domain, instance, connection);
 }
 
 void GearSelectionClient::run() {
     std::cout << "Waiting for GearSelection service to become available." << std::endl;
-    while (!myProxy_->isAvailable()) {
+    while (!gearProxy_->isAvailable()) {
         std::this_thread::sleep_for(std::chrono::milliseconds(10));
     }
 
-    myProxy_->getGearAttribute().getChangedEvent().subscribe(
+    gearProxy_->getGearAttribute().getChangedEvent().subscribe(
         [&](const int32_t& gear){std::cout << gear << std::endl;}
     );
 
-    while (true) {
-        std::this_thread::sleep_for(std::chrono::seconds(2));
-    }
 }
 

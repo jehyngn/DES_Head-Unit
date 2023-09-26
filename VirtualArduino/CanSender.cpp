@@ -23,10 +23,11 @@ CanSender::~CanSender() {
     close(s);
 }
 
-void CanSender::sendData(float data) {
+void CanSender::sendData(float rpm, float speed) {
     frame.can_id = 0x123; 
     frame.can_dlc = sizeof(float);
-    memcpy(frame.data, &data, sizeof(float));
+    memcpy(frame.data, &rpm, sizeof(float));
+    memcpy(frame.data + sizeof(float), &speed, sizeof(float));
 
     if (write(s, &frame, sizeof(struct can_frame)) != sizeof(struct can_frame)) {
         perror("Error writing to CAN socket");

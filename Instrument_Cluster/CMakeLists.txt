@@ -16,7 +16,7 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Core Quick)
 
 include_directories(
     src
-    src-gen-gear
+    src-gen-cluster
     ~/build-commonapi/capicxx-core-runtime/include
     ~/build-commonapi/capicxx-someip-runtime/include
     ~/build-commonapi/vsomeip/interfaces
@@ -29,14 +29,18 @@ link_directories(
 )
 
 add_executable(Instrument_Cluster
-
         src/main.cpp
         src/qml.qrc
-        src-gen-gear/v1/commonapi/GearSelectionSomeIPDeployment.cpp
-        src-gen-gear/v1/commonapi/GearSelectionSomeIPProxy.cpp
-        src-gen-gear/v1/commonapi/GearSelectionProxy.hpp
+        src-gen-cluster/v1/commonapi/GearSelectionSomeIPDeployment.cpp
+        src-gen-cluster/v1/commonapi/GearSelectionSomeIPProxy.cpp
+        src-gen-cluster/v1/commonapi/GearSelectionProxy.hpp
+        src-gen-cluster/v1/commonapi/SpeedStatusSomeIPDeployment.cpp
+        src-gen-cluster/v1/commonapi/SpeedStatusSomeIPProxy.cpp
+        src-gen-cluster/v1/commonapi/SpeedStatusProxy.hpp
         src/GearSelectionClient.cpp
         src/GearSelectionClient.hpp
+        src/SpeedStatusClient.hpp
+        src/SpeedStatusClient.cpp
 )
 
 target_link_libraries(Instrument_Cluster

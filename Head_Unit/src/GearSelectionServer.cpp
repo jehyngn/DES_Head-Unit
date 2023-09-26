@@ -7,11 +7,9 @@ GearSelectionServer::GearSelectionServer() {
 
     runtime = CommonAPI::Runtime::get();
     service = std::make_shared<GearSelectionStubImpl>();
-}
 
-void GearSelectionServer::run() {
     std::string domain = "local";
-    std::string instance = "commonapi.Attributes";
+    std::string instance = "commonapi.Gear";
     std::string connection = "service-sample";
 
     while (!runtime->registerService(domain, instance, service, connection)) {
@@ -20,8 +18,8 @@ void GearSelectionServer::run() {
     }
 
     std::cout << "Successfully Registered Service!" << std::endl;
-
 }
+
 
 void GearSelectionServer::buttonPressed(int gearValue) {
     service->setGearAttribute(gearValue);

@@ -18,7 +18,7 @@ public:
 private:
 
     std::shared_ptr<CommonAPI::Runtime> runtime;
-    std::shared_ptr<GearSelectionProxy<>> myProxy_;
+    std::shared_ptr<GearSelectionProxy<>> gearProxy_;
 
 };
 

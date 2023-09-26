@@ -11,7 +11,6 @@ class GearSelectionServer : public QObject {
     Q_OBJECT
 public:
     GearSelectionServer();
-    void run();
 
 public slots:
     void buttonPressed(int gearValue);
