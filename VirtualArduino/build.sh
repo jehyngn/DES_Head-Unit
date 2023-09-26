@@ -1,1 +1,0 @@
-gcc *.cpp -o cansender
