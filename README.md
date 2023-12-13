@@ -59,6 +59,8 @@ QT:
 **Qt** is cross-platform software for creating [graphical user interfaces](https://en.wikipedia.org/wiki/Graphical_user_interfaces) as well as [cross-platform](https://en.wikipedia.org/wiki/Cross-platform_software) applications that run on various software and hardware platforms such as [Linux](https://en.wikipedia.org/wiki/Linux), [Windows](https://en.wikipedia.org/wiki/Windows), [macOS](https://en.wikipedia.org/wiki/MacOS), [Android](https://en.wikipedia.org/wiki/Android_(operating_system)) or [embedded systems](https://en.wikipedia.org/wiki/Embedded_system) 
 
 **vSomeIP & CommonAPI**
+
+
 **vSomeIP**
 ![image](https://github.com/SEA-ME-Team6/DES_Head-Unit/assets/38885035/11310e04-dea9-4ea0-918d-eec82c25b112)
 
