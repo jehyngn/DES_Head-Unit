@@ -6,16 +6,27 @@
 
 This project aims to develop a Head Unit Qt application running on a Raspberry Pi (RPi) alongside the previously developed PiRacer Instrument Cluster Qt application (was developed to display real-time speed data from the speed sensor on the car).  The project will use Yocto as the build system for the RPi.
 
-The head unit application is a critical component of the in-car infotainment system, providing a user interface for various functions, such as navigation system, , ambient lighting, gear selection, and media playback.
+The head unit application is a critical component of the in-car infotainment system, providing a user interface for various functions, such as navigation system, ambient lighting, gear selection, and media playback.
+
+
+You can check with each repository
+
+### [app-ipi](https://github.com/SEA-ME-Team6/app-ipi): applications for this project 
+### [meta-ipi](https://github.com/SEA-ME-Team6/meta-ipi/tree/main): custom layer for yocto
 
 
 ## Key Concepts
 ### SoA(SOME/IP)
-
-### Yocto
+SOME/IP is a communication protocol widely used in automotive and embedded systems for efficient service-oriented communication over IP networks.
+In our project, SOME/IP plays important role in establishing reliable communication between different processes.\
 
 ### Qt Application Manager
+Qt Application Manager, based on the Qt framework, is a tool for managing applications in a multi-process, multi-application environment. It ensures stable execution and management of applications in embedded systems.
+In our project, Qt Application Manager effectively handles GUI and various applications.
 
+### Yocto
+octo is an open-source project for building embedded Linux systems. Utilizing custom recipes, configurations, and layers, Yocto generates optimized images tailored to specific hardware platforms.
+In our project, Yocto is instrumental in configuring the system, integrating packages, and applications to deliver an optimal embedded solution.
 
 ## Head Unit
 
