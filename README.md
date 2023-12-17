@@ -5,7 +5,8 @@ This project aims to develop a Head Unit Qt application running on a Raspberry P
 
 The head unit application is a critical component of the in-car infotainment system, providing a user interface for various functions, such as navigation system, , ambient lighting, gear selection, and media playback.
 
-![image](https://github.com/SEA-ME-Team6/DES_Head-Unit/assets/38885035/c643900d-bb84-409d-91fb-50a1958adb83)
+
+![HW_architecture drawio](https://github.com/SEA-ME-Team6/DES_Head-Unit/assets/106136905/092a97ea-0086-4297-840e-c2805b0f9ffa)
 
 
 ### Main Screen
