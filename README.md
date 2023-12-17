@@ -16,9 +16,8 @@ You can check with each repository
 
 
 ## Key Concepts
-### SoA(SOME/IP)
-SOME/IP is a communication protocol widely used in automotive and embedded systems for efficient service-oriented communication over IP networks.
-In our project, SOME/IP plays important role in establishing reliable communication between different processes.\
+### SOME/IP(Scalable service-Oriented MiddlewarE over IP):
+SOME/IP is a protocol designed based on SOA (Service Oriented Architecture). Each service is divided into a provider (Server) that provides a service and a consumer (Client) that uses the service. SOME/IP is a communication protocol widely used in automotive and embedded systems for efficient SOA
 
 ### Qt Application Manager
 Qt Application Manager, based on the Qt framework, is a tool for managing applications in a multi-process, multi-application environment. It ensures stable execution and management of applications in embedded systems.
