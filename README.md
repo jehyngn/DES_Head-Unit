@@ -55,7 +55,7 @@ The GUI is developed using the Qt framework, leveraging QML for declarative UI d
 
 - CAN-BUS Shield V2.0 (MCP2515)
 - IR infrared Speed Sensor (LM393)
-- Raspberry Pi 4 Camera
+  
 
 ## KEY CONCEPTS
 
