@@ -60,22 +60,8 @@ The GUI is developed using the Qt framework, leveraging QML for declarative UI d
   
 
 ## Key Concepts
+### SoA(SOME/IP)
 
-QT:
+### Yocto
 
-**Qt** is cross-platform software for creating [graphical user interfaces](https://en.wikipedia.org/wiki/Graphical_user_interfaces) as well as [cross-platform](https://en.wikipedia.org/wiki/Cross-platform_software) applications that run on various software and hardware platforms such as [Linux](https://en.wikipedia.org/wiki/Linux), [Windows](https://en.wikipedia.org/wiki/Windows), [macOS](https://en.wikipedia.org/wiki/MacOS), [Android](https://en.wikipedia.org/wiki/Android_(operating_system)) or [embedded systems](https://en.wikipedia.org/wiki/Embedded_system) 
-
-**vSomeIP & CommonAPI**
-
-
-**vSomeIP**
-![image](https://github.com/SEA-ME-Team6/DES_Head-Unit/assets/38885035/11310e04-dea9-4ea0-918d-eec82c25b112)
-
-
-SOME/IP is an automotive middleware solution that can be used for control messages. It was designed from beginning on to fit devices of different sizes and different operating systems perfectly.
-
-vsomeip covers not only the SOME/IP communication between devices (external communication) but also the internal inter process communication. 
-
-**common api**
-
-CommonAPI C++ is a C++ framework for interprocess and network communication. The basic objective is not to provide a new mechanism for interprocess or network communication (IPC), but to define a high-level C++ API, which can be used for different mechanisms. The benefit for C++ developers should be that they are relieved from details of proprietary or little-known communication frameworks or protocols.
+### Qt Application Manager
