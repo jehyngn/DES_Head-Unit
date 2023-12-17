@@ -1,5 +1,5 @@
 # DES_Head-Unit
-### INTRODUCTION
+## INTRODUCTION
 
 This project aims to develop a Head Unit Qt application running on a Raspberry Pi (RPi) alongside the previously developed PiRacer Instrument Cluster Qt application (was developed to display real-time speed data from the speed sensor on the car).  The project will use Yocto as the build system for the RPi.
 
@@ -7,6 +7,8 @@ The head unit application is a critical component of the in-car infotainment sys
 
 
 
+
+## Head Unit
 ### Main Screen
 
 - **Header:** Displays essential information such as date and  time
