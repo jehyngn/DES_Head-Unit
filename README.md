@@ -1,5 +1,5 @@
 # DES_Head-Unit
-## INTRODUCTION
+## Introduction
 
 This project aims to develop a Head Unit Qt application running on a Raspberry Pi (RPi) alongside the previously developed PiRacer Instrument Cluster Qt application (was developed to display real-time speed data from the speed sensor on the car).  The project will use Yocto as the build system for the RPi.
 
@@ -59,7 +59,7 @@ The GUI is developed using the Qt framework, leveraging QML for declarative UI d
 - IR infrared Speed Sensor (LM393)
   
 
-## KEY CONCEPTS
+## Key Concepts
 
 QT:
 
