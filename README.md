@@ -11,7 +11,7 @@ The head unit application is a critical component of the in-car infotainment sys
 
 You can check with each repository
 
-### [app-ipi](https://github.com/SEA-ME-Team6/DES_Head-Unit/tree/dev-communication): applications for this project 
+### [app-ipi](https://github.com/SEA-ME-Team6/app-ipi/tree/main): applications for this project 
 ### [meta-ipi](https://github.com/SEA-ME-Team6/meta-ipi/tree/main): custom layer for yocto
 
 
