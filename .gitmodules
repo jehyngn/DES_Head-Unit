@@ -1,8 +1,8 @@
-[submodule "app-ipi"]
-	path = app-ipi
-	url = https://github.com/SEA-ME-Team6/app-ipi.git
-	branch = main
 [submodule "meta-ipi"]
 	path = meta-ipi
 	url = https://github.com/SEA-ME-Team6/meta-ipi.git
+	branch = main
+[submodule "app-ipi"]
+	path = app-ipi
+	url = https://github.com/SEA-ME-Team6/app-ipi.git
 	branch = main
