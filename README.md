@@ -1,6 +1,8 @@
 # DES_Head-Unit
 
 ## Preview
+![IMG_5692 중간](https://github.com/SEA-ME-Team6/DES_Head-Unit/assets/106136905/0da57d5a-7234-4e59-b969-6b20ccee820f)
+
 
 ## Introduction
 
